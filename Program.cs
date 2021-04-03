@@ -13,7 +13,7 @@ namespace Milhas
             Console.WriteLine("digite um número:");
             double m = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine();
-            double km = m * 1609;
+            double km = m * 1.609;
             Console.WriteLine($"É {km} km");
 
 
